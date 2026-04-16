@@ -3,12 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 15%
   &-2
+    animation: float1 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 80%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 70%
 
 @keyframes float1
   0%
@@ -30,3 +35,19 @@
 
 figcaption
   font-weight: normal
+
+/* Colores de fondo*/
+.bg-color  
+  &-1
+    background-image: url(../assets/curso/fondos/fondo1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-2
+    background-image: url(../assets/curso/fondos/fondo2.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-3
+    background-color: #C1A1F0 !important
+  
+/*Fin de Colores de fondo*/
