@@ -36,13 +36,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos generales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Sistemas de producción en pollo de engorde',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Procesos productivos en pollo de engorde',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Líneas comerciales para carne en Colombia',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Bienestar animal, etología en pollos de engorde',
+            hash: 't_1_4',
           },
         ],
       },
@@ -50,14 +65,124 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Normatividad y seguridad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Seguridad y salud en el trabajo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.1',
+            titulo: 'Elementos de protección personal (EPP)',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Buenas prácticas avícolas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Principios de bioseguridad avícola',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Manejo ambiental',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Protocolos',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Contingencias',
+            hash: 't_2_7',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Planificación y organización',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Cronograma de actividades: clase y características',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Medidas de superficie, longitud, peso y volumen',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Densidad de aves y equipos: concepto, cálculos',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Infraestructura y condiciones de la granja',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Alojamiento: tipos y características',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Condiciones ambientales: parámetros, control ambiental',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Calefacción: concepto, sistemas, operación',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Iluminación: concepto, sistemas, operación',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Camas: tipos y manejo',
+            hash: 't_4_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Manejo productivo del pollo de engorde',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Agua: importancia y manejo',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Alimento: importancia y tipos',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Manejo de concentrado y factores que afectan el consumo',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [

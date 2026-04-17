@@ -48,6 +48,165 @@ figcaption
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
   &-3
-    background-color: #C1A1F0 !important
-  
+    background-color: #96D6D6 !important
+  &-4
+    background-color: #FFE9B5 !important
+  &-5
+    background-color: #EAF7F7 !important
+  &-6
+    background-color: #4A6A6A !important
+  &-7
+    background-color: #D5EFEF !important
+  &-8
+    background-color: #FFC94A !important
 /*Fin de Colores de fondo*/
+
+/*Solución color letra botones*/
+.boton *, 
+.boton--sm *, 
+.barra-avance__boton--regresar *, 
+.barra-avance__boton--regresar span,
+.barra-avance__boton--regresar i,
+.boton:hover *, 
+.boton--sm:hover *, 
+.boton:focus *, 
+.boton--sm:focus *, 
+.boton:active *, 
+.boton--sm:active *
+    color: #ffffff !important;
+/*Solución color letra botones*/
+
+/* Código para los subtítulos que tienen imagenes */
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+
+.titulo-con-imagen__fondo
+  background-color: $color-acento-contenido
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -20px
+  width: 50px
+
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+/* Fin Código para los subtítulos que tienen imagenes */
+
+/*Accordion*/
+.tarjeta.acordeonA
+  background-color: #DFE3BC
+
+.acordion__activo
+  background-color: #FFE9B5 !important
+
+.acordion__accion__btn--a
+  background-color: #FF0011 !important
+
+.acordion_titulo
+  color: #fff !important
+
+.acordeonA
+  position: relative  
+  width: 100%  
+  p
+    padding-left: 0 !important  
+  .lista-ul
+    padding-left: 4.3rem
+    li
+      display: flex
+      align-items: flex-start
+      i
+        padding-top: 4px
+
+.acordeon-tipo-2
+  .tarjeta.acordeonA
+    background-color: #D5EFEF
+  .acordion__activo
+    background-color: #FFE9B5 !important
+  .acordion__accion__btn--a
+    background-color: #F11F1F !important
+  .acordion_titulo
+    color: #fff !important
+  .acordeonA
+    p
+      padding-left: 3.6rem !important 
+/*Fin Accordion*/
+
+
+
+/* Código para los carruseles */
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-contenido
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+.bordes
+  border: 1px solid #CBD5E0 !important
+/*Fin Código para los carruseles */
+
+/*Slideshows*/
+.bg-fondo
+  &-slider
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+    background-position: bottom
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #f11f1f !important
+.slyder-a__bullets__item--active 
+  background-color: #f11f1f !important
+  border-color: #f11f1f
+.slyder-a__bullets__item
+  background-color: #f11f1f
+  border: 1px solid #f11f1f
+.bloque-texto-b.color-secundario:before
+  background-color: #CBE7E8
+.tarjeta-numerada.color-primario
+  border-color: #F3F0EA
+  background-color: #F3F0EA
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: #FD9826
+.tarjeta-numerada__numero
+  top: 35%
+/*Slideshows*/
+
+/* Ajuste para botones de Slider en Móviles */
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px !important 
+    height: 35px !important
+    background-size: 10px !important 
+    opacity: 1 !important
+  
+  .slyder-a__bullets__item
+    width: 10px !important 
+    height: 10px !important
+    margin: 0 4px !important
+
+  .slyder-a__bullets
+    bottom: 10px !important 
+
+
+
+/*Vinetas con numeros*/
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto
+  background-color: $color-acento-contenido
+/*Vinetas con numeros*/
