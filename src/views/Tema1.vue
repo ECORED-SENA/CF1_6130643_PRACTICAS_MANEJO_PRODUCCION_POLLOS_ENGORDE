@@ -58,7 +58,7 @@
     //- Título con imagen
     p(data-aos="fade-left") Los sistemas más representativos son:
     //- Inicio Accordion
-    .bg--img_03.mt-5.acordeon-tipo-2
+    .bg--img_03.mt-5.acordeon-tipo-2(data-aos="fade-right")
       .row.justify-content-center        
         .col-lg-12
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
@@ -191,7 +191,7 @@
                       figure
                         img(src='@/assets/curso/tema1/img1.png', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel
-    Separador          
+    Separador
     //- Inicio Tema1.2
     .row.mt-5
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -206,8 +206,12 @@
               figure
                 img(src="@/assets/curso/tema1/slide01_1.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              p.lista-ol--cuadro__vineta.p-1 1
-              h4 Alistamiento (clave en bioseguridad)                    
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 1
+                  |
+                  h4 Alistamiento (clave en bioseguridad)
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
@@ -229,51 +233,564 @@
               figure
                 img(src="@/assets/curso/tema1/slide01_2.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Recepción de pollitos (día 1)
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 2
+                  |
+                  h4 Recepción de pollitos (día 1)
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Procedentes de incubadoras certificadas.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Peso promedio: entre 38 g. y 45 g.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Temperatura inicial: entre 32 °C y 34 °C. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Hidratación inmediata.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema1/slide01_3.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Levante (de 0 a 21 días)
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 3
+                  |
+                  h4 Levante (de 0 a 21 días)
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Desarrollo del sistema digestivo e inmunológico. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Manejo estricto de temperatura y ventilación. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Programas de vacunación. 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema1/slide01_4.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Engorde (de 21 a 42 días)
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 4
+                  |
+                  h4 Engorde (de 21 a 42 días)
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Máximo crecimiento muscular. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Ajuste de densidad. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Control de amoníaco y ventilación.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema1/slide01_5.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Control sanitario
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 5
+                  |
+                  h4 Control sanitario                
+                ul.lista-ul
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p Registro diario de:
+                      ul.mt-3
+                        li - Mortalidad.
+                        li - Consumo de alimento.
+                        li - Consumo de agua.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Aplicación de vacunas.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Monitoreo de enfermedades (<i>Newcastle, Gumboro</i>)
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema1/slide01_6.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Captura
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 6
+                  |
+                  h4 Captura
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Realizada en horas frescas (noche o madrugada).
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Evitar estrés y lesiones. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Personal capacitado (bienestar animal). 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema1/slide01_7.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h4 Transporte
-              p XXXXXXXXXXXXXXXXXXXXXXXXXX
+              ol.lista-ol--cuadro.mb-0
+                li.d-flex
+                  .lista-ol--cuadro__vineta.v--green
+                    span 7
+                  |
+                  h4 Transporte
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Guacales adecuados.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Ventilación adecuada.
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Cumplimiento de normativa de bienestar.
     //- Fin Slideshow
-
-
-
-
-
-
- 
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Indicadores productivos en Colombia
+    //- Título con imagen
+    p(data-aos="fade-left") En las siguientes líneas se informará cuáles son los indicadores de referencia en Colombia:
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hiddenp(data-aos="fade-right")
+      .row.g-0.align-items-stretch.justify-content-center        
+        .col-12.col-lg-5.bg-color-7.p-4.p-lg-5.pe-lg-0
+          h4 Indicadores productivos
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Conversión alimenticia: entre 1.6 kg. y 1.8 kg. 
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Mortalidad: menor (<) que el 5 %. 
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Peso final: entre 2.2 kg. y 2.8 kg. 
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Índice de eficiencia europeo (IEE). 
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema1/img2.png', style="width: 100%; object-fit: cover; object-position: left center;")
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-10.bg-color-9    
+        //- Inicio Tabla
+        .row.justify-content-center.p-4
+          .col-md-10
+            h4 Fase productiva
+            .titulo-sexto.color-acento-contenido.mb-3              
+              h5 Tabla 1.
+              span  Fase productiva
+            .tabla-a.color-acento-botones
+              table
+                thead
+                  tr
+                    th(style="width: 40%") Fase productiva
+                    th(style="width: 60%") Pollos de engorde
+                tbody
+                  tr
+                    td Reproductiva
+                    td Pollitos de un día provenientes de incubadoras comerciales (Ross, Cobb, Hubbard).
+                  tr
+                    td Crecimiento / levante
+                    td Entre 0 y 21 días: fase crítica, control de temperatura (de 32 °C. a 28 °C.).
+                  tr
+                    td Engorde / postura
+                    td Entre 22 y 42 días: ganancia rápida de peso (2,2 kg. Y 2,5 kg.).
+                  tr
+                    td Comercialización
+                    td A los 35 o a los 45 días, con un peso entre 2,3 kg. y 2,5 kg.
+                  tr
+                    td Indicadores
+                    td Conversión alimenticia: entre 1,6 kg. Y 1,8 kg.; con una mortalidad menor (<) que el 5 %.
+                  tr
+                    td Recomendaciones
+                    td Control ambiental, densidad adecuada, bioseguridad.
+        //- FinTabla
+    Separador
+    //- Inicio Tema1.2
+    .row.mt-5
+        #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.3 Líneas comerciales para carme en Colombia 
+    p(data-aos="fade-left") Con el fin de conocer las líneas genéticas importadas utilizadas en Colombia por su alta eficiencia productiva, se invita a observar el siguiente video.
+    //- Inicio Video
+    figure.mb-5(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //- Fin Video
+    Separador
+    //- Inicio Tema1.4
+    .row.mt-5
+        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.4 Bienestar animal y etología en pollos de engorde
+    p(data-aos="fade-left") En este apartado se abordará el concepto de bienestar animal y la normatividad que la rige.
+    //- Inicio Tarjetas
+    .row.justify-content-center.g-0(data-aos="fade-right")
+      .col-12.col-md-6.d-flex
+        .tarjeta.p-5.h-100.bg-color-6(style="border-radius: 25px 0 0 25px; background-color: #4d6666;")
+          .row.mb-3
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_1.svg', alt='' style="width:100px").m-auto
+          h4.text-white Concepto
+          p.text-white El bienestar animal en pollos de engorde se define como el estado físico, sanitario y comportamental en el que las aves se desarrollan bajo condiciones que les permiten crecer sin dolor, estrés ni sufrimiento innecesario, garantizando su salud, confort y adecuado desempeño productivo.
+      .col-12.col-md-6.d-flex
+        .tarjeta.p-5.h-100.bg-color-10(style="border-radius: 0 25px 25px 0; background-color: #d8f0f0;")
+          .row.mb-4
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/tarjeta03_2.svg', alt='' style="width:100px").m-auto
+          h4.card-title.mb-4 Normatividad
+          ul.lista-ul.mb-0
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 <b>Resolución 253 de 2020</b>, que establece condiciones de bienestar animal.
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 <b>Resolución 3652 de 2014</b>, que regula la bioseguridad en granjas avícolas. 
+            li.d-flex
+              i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+              p.mb-0 <b>Resolución 00016409</b>, que está relacionada con el control sanitario y la vigilancia epidemiológica.
+    //- Fin Tarjetas
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Evaluación del bienestar en pollos de engorde
+    //- Título con imagen
+    p(data-aos="fade-left") Continuando con el análisis del bienestar animal es preciso mencionar que este se evalúa mediante indicadores técnicos agrupados en tres enfoques:
+    .row.bg-color-1
+      .col-12
+        .p-5
+          //- Inicio Tarjetas
+          .row(data-aos="fade-right")
+            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
+              .tarjeta.p-4.rounded-5.h-100.bg-color-7
+                .row.justify-content-center.mb-3.align-items-center
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema1/tarjeta04_1.svg', alt='' style="width:100px").m-auto
+                h4.card-title.text-center.mb-4 a. Medidas basadas en el animal
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Condición corporal. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Uniformidad del lote. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Presencia de lesiones (patas, pechuga). 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Estado del plumaje. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Comportamiento (jadeo, actividad). 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Mortalidad.
+            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
+              .tarjeta.p-4.rounded-5.h-100.bg-color-7
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='' style="width:100px").m-auto
+                h4.card-title.text-center.mb-4 b. Medidas basadas en los recursos
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Temperatura del galpón. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Ventilación. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Calidad de la cama. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Espacio disponible (densidad). 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Acceso a agua y alimento. 
+            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
+              .tarjeta.p-4.rounded-5.h-100.bg-color-7
+                .row.justify-content-center.mb-3
+                  .col-7
+                    figure
+                      img(src='@/assets/curso/tema1/tarjeta04_3.svg', alt='' style="width:100px").m-auto
+                h4.card-title.text-center.mb-4 c. Medidas basadas en la gestión
+                ul.lista-ul.mb-0
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Registros productivos. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Protocolos de manejo. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Plan de bioseguridad. 
+                  li.d-flex
+                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                    p.mb-0 Capacitación del personal. 
+          //- Fin Tarjetas
+          //- Título con imagen
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3
+            .titulo-con-imagen.mb-5(data-aos="fade-right")
+              .titulo-con-imagen__fondo
+                img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+                h3.titulo-con-imagen__texto Aspectos clave del bienestar animal en la producción de pollos de engorde
+          //- Título con imagen
+          p(data-aos="fade-left") En esta sección se abordan los principales aspectos del bienestar animal en Colombia, incluyendo factores críticos, indicadores en granja, signos de alteraciones, etología aplicada, principios de bienestar, las cinco libertades y los cinco dominios, así como la sintiencia, la normativa vigente y su relación con la productividad.
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center
+      .col-lg-3
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img3.png").img400.m-auto
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Factores críticos de bienestar en Colombia")
+              p.mb-4 En sistemas intensivos de engorde, los principales factores que afectan el bienestar son:              
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Estrés térmico: causado por altas temperaturas, evidenciado por jadeo. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Ventilación deficiente: acumulación de gases como amoníaco. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Humedad de la cama: genera enfermedades y lesiones. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Alta densidad: incrementa competencia, estrés y mortalidad. 
+          .row(titulo="Indicadores de bienestar en granja")
+              p.mb-4 Los principales indicadores observables en campo son:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Consumo normal de alimento y agua. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Distribución uniforme de las aves en el galpón. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Crecimiento homogéneo. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Plumaje limpio. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Baja mortalidad: menor o igual (≤) que el 5%. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Ausencia de cojeras o lesiones.
+          .row(titulo="Signos de problemas de bienestar")
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Jadeo (estrés por calor). 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Aglomeración de aves. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Disminución en el consumo. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Lesiones en patas o pechuga. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Letargo o debilidad. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Incremento en la mortalidad.
+          .row(titulo="Etología aplicada a pollos de engorder")
+              p.mb-4 La etología estudia el comportamiento de las aves y permite mejorar el manejo productivo.
+              h4 Aplicaciones prácticas:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Identificación de estrés térmico. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Evaluación de condiciones ambientales. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Detección temprana de enfermedades. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Ajuste de densidad y ventilación. 
+              h4.mt-3 Interpretación del comportamiento:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Aves dispersas → ambiente adecuado. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Aves agrupadas → frío o corrientes de aire. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Jadeo → exceso de temperatura.
+          .row(titulo="Principios del bienestar animal aplicados al engorde")
+              h4.mt-3 Integridad física y salud:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Prevención de enfermedades. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Cumplimiento de bioseguridad (Res. 3652 de 2014). 
+              h4.mt-3 Estado fisiológico adecuado:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Alimentación balanceada. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Agua limpia y disponible. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Control ambiental. 
+              h4.mt-3 Expresión de comportamiento:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Espacio suficiente. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Acceso a recursos. 
+              h4.mt-3 Control del estrés:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Manejo adecuado del personal. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Evitar prácticas bruscas.                 
+              h4.mt-3 Evaluación continua:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Monitoreo diario.
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Registros productivos.                
+    //- Fin Accordion
+    //- Inicio Accordion
+    .bg--img_03.mt-5
+    .row.justify-content-center      
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Las Cinco Libertades")              
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Libre de hambre y sed. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Libre de incomodidad. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Libre de dolor y enfermedad. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Libre de miedo y estrés. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Libre para expresar comportamiento.           
+          .row(titulo="Los Cinco Dominios")              
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Nutrición. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Ambiente. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Salud. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Comportamiento. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Estado mental.
+          .row(titulo="Sintiencia en pollos de engorde")
+              p.mb-4 Los pollos son seres sintientes, capaces de experimentar dolor, estrés y miedo. Esto implica la obligación de garantizar un manejo humanitario durante todo el ciclo productivo, desde la recepción hasta el transporte.             
+          .row(titulo="Aplicación normativa en Colombia")
+              p Resolución 3652 de 2014:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Establece medidas de bioseguridad. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Control de ingreso y desinfección. 
+              p.mt-3 Resolución 253 de 2020:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Regula el bienestar animal. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Exige manejo humanitario. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Control de densidad y condiciones de alojamiento. 
+              p.mt-3 Resolución 00016409:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Control sanitario. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Vigilancia epidemiológica. 
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Registro de eventos productivos. 
+          .row(titulo="Relación bienestar – productividad")
+              p.mb-4 Un adecuado bienestar animal permite:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Mayor ganancia de peso.  
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Mejor conversión alimenticia.  
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Menor mortalidad.  
+                li.d-flex
+                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
+                  p.mb-0 Mejor calidad de la carne.  
+      .col-lg-3
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img4.png").img400.m-auto     
+    //- Fin Accordion
+    p(data-aos="fade-left") El bienestar animal en pollos de engorde constituye un eje fundamental en la producción avícola en Colombia, al integrar aspectos técnicos, sanitarios y normativos. Su correcta aplicación garantiza sistemas productivos eficientes, sostenibles y alineados con la legislación vigente.
 </template>
 
 <script>

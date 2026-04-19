@@ -59,6 +59,10 @@ figcaption
     background-color: #D5EFEF !important
   &-8
     background-color: #FFC94A !important
+  &-9
+    background-color: #FFF4DA !important
+  &-10
+    background-color: #F9c896 !important
 /*Fin de Colores de fondo*/
 
 /*Solución color letra botones*/
@@ -101,7 +105,7 @@ figcaption
 
 /*Accordion*/
 .tarjeta.acordeonA
-  background-color: #DFE3BC
+  background-color: #D5EFEF
 
 .acordion__activo
   background-color: #FFE9B5 !important
@@ -116,14 +120,16 @@ figcaption
   position: relative  
   width: 100%  
   p
-    padding-left: 0 !important  
+    padding-left: 4.3rem !important 
+  h4 
+    padding-left: 4.3rem !important 
   .lista-ul
     padding-left: 4.3rem
     li
       display: flex
       align-items: flex-start
       i
-        padding-top: 4px
+        padding-top: 1px
 
 .acordeon-tipo-2
   .tarjeta.acordeonA
@@ -131,15 +137,16 @@ figcaption
   .acordion__activo
     background-color: #FFE9B5 !important
   .acordion__accion__btn--a
-    background-color: #F11F1F !important
+    background-color: #FF0011 !important
   .acordion_titulo
     color: #fff !important
   .acordeonA
     p
-      padding-left: 3.6rem !important 
+      padding-left: 3.8rem !important 
+    h4
+      padding-left: 3.8rem !important 
+    
 /*Fin Accordion*/
-
-
 
 /* Código para los carruseles */
 .carousel-bg .fas
@@ -210,3 +217,44 @@ figcaption
   color: $color-sistema-texto
   background-color: $color-acento-contenido
 /*Vinetas con numeros*/
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #000 !important
+
+.tarjeta
+  backdrop-filter: blur(10px)
+  background-color: rgba(255, 255, 255, 0.548)
+
+.lista-ol--cuadro__vineta span
+  color: $color-sistema-texto
+  font-weight: bold
+
+
+/*Tablas*/
+.tabla-a.color-acento-botones thead
+  border-color: $color-acento-contenido
+  background-color: $color-acento-contenido !important
+.tabla-a th, table td 
+  text-align: start
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+.separador__tabla
+  background-color: #F6F6F6
+
+.tabla-a table 
+  min-width: 100% !important;
+  table-layout: auto; 
+
+.tabla-a 
+  overflow-x: visible !important; 
+
+.tabla-a
+  table
+    tbody
+      tr:nth-child(odd)
+        background-color: #F6F6F6
+      tr:nth-child(even)
+        background-color: #FFFFFF 
+/*Tablas*/
+
+
