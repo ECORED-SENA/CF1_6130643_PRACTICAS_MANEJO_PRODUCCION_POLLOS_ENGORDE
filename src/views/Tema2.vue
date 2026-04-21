@@ -209,7 +209,7 @@
                 .row.mb-3
                   .col-auto
                     figure
-                      img(src='@/assets/curso/tema1/tarjeta01_1.svg', alt='' style="width:100px").m-auto
+                      img(src='@/assets/curso/tema2/tarjeta01_1.svg', alt='' style="width:100px").m-auto
                 h4.text-white Incluye                
                 ul.lista-ul.mb-0
                   li.d-flex
@@ -262,7 +262,7 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 1.	Control de acceso
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -276,7 +276,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 Desinfección.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 2.	Manejo sanitario
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -290,7 +290,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 Monitoreo. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 3.	Higiene
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -304,7 +304,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 Control de agua.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 4.	Control de plagas
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -315,7 +315,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 Uso de trampas.                          
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 5.	Manejo del personal
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -329,7 +329,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 Registro.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_6.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 6.	Flujo de producción
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -343,7 +343,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             p.mb-0 No mezclar edades.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta02_7.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 7.	Monitoreo
                         p.card-text.text-center
                         ul.lista-ul.mb-0
@@ -367,7 +367,7 @@
           .row.mb-3
             .col-auto
               figure
-                img(src='@/assets/curso/tema1/tarjeta01_1.svg', alt='' style="width:100px").m-auto
+                img(src='@/assets/curso/tema2/tarjeta03_1.svg', alt='' style="width:100px").m-auto
           h4.text-white Normativa                
           ul.lista-ul.mb-0
             li.d-flex
@@ -384,7 +384,7 @@
           .row.mb-4
             .col-auto
               figure
-                img(src='@/assets/curso/tema2/tarjeta01_2.svg', style="width:100px").m-auto
+                img(src='@/assets/curso/tema2/tarjeta03_2.svg', style="width:100px").m-auto
           h4.card-title.mb-4 Aplicación en granja
           ul.lista-ul.mb-0
             li.d-flex
@@ -574,6 +574,88 @@
                   p.mb-0 No movilizar aves sin permisos.
     //- Fin Slideshow
     p(data-aos="fade-left") El cumplimiento de la normatividad y seguridad en la avicultura de engorde garantiza no solo la sanidad de las aves, sino también la protección del trabajador, la sostenibilidad ambiental y la productividad del sistema, siendo la bioseguridad el eje fundamental del proceso productivo.
+    //- Inicio Accordion
+    .bg--img_03.mt-5.acordeon-tipo-2(data-aos="fade-right")
+      .row.justify-content-center        
+        .col-lg-12
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Sistema intensivo (predominante en Colombia)")
+              .col-12
+                p.mb-4 Es el sistema más utilizado en integraciones avícolas comerciales.                
+                p.mb-3 #[b Características:]           
+                .row.mb-4.justify-content-center
+                    .col-6.col-md-3.text-center.mb-3
+                        img.img-fluid(src='@/assets/curso/tema1/img1acordion.svg')
+                    .col-6.col-md-3.text-center.mb-3
+                        img.img-fluid(src='@/assets/curso/tema1/img2acordion.svg')                    
+                    .col-6.col-md-3.text-center.mb-3
+                        img.img-fluid(src='@/assets/curso/tema1/img3acordion.svg')                    
+                    .col-6.col-md-3.text-center.mb-3
+                        img.img-fluid(src='@/assets/curso/tema1/img4acordion.svg')
+                .row
+                  .col-md-6
+                    p #[b Ventajas:]
+                    ul.lista-ul
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Alta productividad.
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Mejor conversión alimenticia (entre 1.5 kg. y 1.8 kg.).
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Mayor control sanitario.                  
+                  .col-md-6
+                    p #[b Desventajas:]
+                    ul.lista-ul
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Alta inversión.
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Dependencia de energía y tecnología.
+            .row(titulo="Sistema semi-intensivo (uso limitado)")
+              .col-12
+                p.mb-4 Se usa en pequeñas producciones o modelos alternativos.
+                .row
+                  .col-md-6
+                    p #[b Características:]
+                    ul.lista-ul
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Galpones con acceso a patios.
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Menor densidad (entre 6 y 10 aves/m²). 
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Mayor libertad de movimiento.                   
+                  .col-md-6
+                    p #[b Uso en Colombia:]
+                    ul.lista-ul
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Producción campesina. 
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Mercados diferenciados (pollo criollo o campesino).
+            .row(titulo="Sistema extensivo (tradicional)")
+              .col-12
+                p.mb-4 Poco utilizado en producción comercial.
+                .row
+                  .col-md-6
+                    p #[b Características:]
+                    ul.lista-ul
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Aves en libertad. 
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Alimentación no controlada.
+                      li.d-flex
+                        i.fas.fa-check-circle(style="color: #ad9721;")
+                        span.ms-2 Bajo rendimiento.
+    //- Fin Accordion
 </template>
 
 <script>
