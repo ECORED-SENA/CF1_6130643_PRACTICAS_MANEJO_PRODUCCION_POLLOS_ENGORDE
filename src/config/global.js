@@ -204,11 +204,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -240,13 +235,142 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Avicultura',
+      significado:
+        'Actividad productiva dedicada a la cría y explotación de aves para obtener carne, huevos u otros productos.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'Conjunto de medidas para prevenir el ingreso y propagación de enfermedades en sistemas avícolas.',
+    },
+    {
+      termino: 'Bienestar animal',
+      significado:
+        'Condición que garantiza salud, confort y comportamiento adecuado de las aves durante su producción.',
+    },
+    {
+      termino: 'Conversión alimenticia',
+      significado:
+        'Relación entre la cantidad de alimento consumido y el peso ganado por el ave.',
+    },
+    {
+      termino: 'Densidad avícola',
+      significado: 'Número de aves por unidad de área en el galpón.',
+    },
+    {
+      termino: 'Etología',
+      significado:
+        'Estudio del comportamiento animal aplicado al manejo productivo de las aves.',
+    },
+    {
+      termino: 'Galpón',
+      significado:
+        'Estructura destinada al alojamiento y manejo de pollos de engorde.',
+    },
+    {
+      termino: 'Manejo ambiental',
+      significado:
+        'Prácticas orientadas a reducir impactos ambientales en la producción avícola.',
+    },
+    {
+      termino: 'Mortalidad',
+      significado: 'Porcentaje de aves que mueren durante el ciclo productivo.',
+    },
+    {
+      termino: 'Parámetros productivos',
+      significado:
+        'Indicadores técnicos que permiten evaluar el rendimiento del sistema avícola.',
+    },
+    {
+      termino: 'Pollos de engorde',
+      significado:
+        'Aves criadas específicamente para la producción de carne en ciclos cortos.',
+    },
+    {
+      termino: 'Proceso productivo',
+      significado:
+        'Conjunto de etapas desde la preparación del galpón hasta la comercialización de las aves.',
+    },
+    {
+      termino: 'Sanidad avícola',
+      significado:
+        'Acciones destinadas a prevenir, controlar y erradicar enfermedades en las aves.',
+    },
+    {
+      termino: 'Sistema intensivo',
+      significado:
+        'Modelo de producción con alta densidad y control técnico de variables ambientales.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Capacidad de seguir el historial de las aves desde su origen hasta su destino final.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2009). Resolución 3654 de 2009. Por la cual se establece el programa de control y erradicación de la enfermedad de Newcastle en el territorio nacional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2013). Resolución 3642 de 2013. Por la cual se establecen los requisitos para el registro de predios pecuarios y otras disposiciones sanitarias.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2014). Resolución 3652 de 2014. Por la cual se establecen los requisitos para la certificación de granjas avícolas bioseguras de engorde y se dictan otras disposiciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2020). Resolución 002536 de 2020. Por la cual se establecen disposiciones sobre bienestar animal en la producción pecuaria.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2021). Resolución 90464 de 2021. Por la cual se establecen disposiciones para el registro sanitario de predio pecuario (RSPP).',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2025). Plan nacional subsectorial de vigilancia y control de residuos de medicamentos veterinarios en pollo de engorde.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2007). Decreto 1500 de 2007. Por el cual se establece el sistema oficial de inspección, vigilancia y control de la carne y productos cárnicos comestibles.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2013). Resolución 242 de 2013. Por la cual se establecen los requisitos sanitarios para el funcionamiento de plantas de beneficio de aves.',
+      link: '',
+    },
+    {
+      referencia:
+        'Federación Nacional de Avicultores de Colombia (FENAVI). (2024). Cartilla de gestión y optimización de unidades productivas de pollo de engorde.',
+      link: '',
+    },
+    {
+      referencia:
+        'Federación Nacional de Avicultores de Colombia (FENAVI). (s.f.). Programa pollo y normativa avícola en Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial de Sanidad Animal (WOAH). (2024). Código sanitario para los animales terrestres: Bienestar animal en aves de corral.',
+      link: '',
+    },
+    {
+      referencia:
+        'National Research Council (NRC). (1994). Nutrient requirements of poultry (9th rev. ed.). National Academy Press.',
+      link: '',
+    },
+    {
+      referencia: 'Solla S.A. (s.f.). Manual de manejo para pollo de engorde.',
       link: '',
     },
   ],

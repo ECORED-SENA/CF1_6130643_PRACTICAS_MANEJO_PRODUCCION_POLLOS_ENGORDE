@@ -284,7 +284,7 @@
     Separador
     //- Inicio Tema5.1
     .row.mt-5
-        #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 5.3 Manejo de concentrado y factores que afectan el consumo
         //- Inicio Tarjetas
     .row.justify-content-center.g-0(data-aos="fade-right")

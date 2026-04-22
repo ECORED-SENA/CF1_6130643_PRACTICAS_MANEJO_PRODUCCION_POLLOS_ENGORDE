@@ -17,39 +17,39 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Cuestionario sobre manejo técnico y productivo de pollo de engorde.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar el nivel de comprensión sobre los principios técnicos, normativos y productivos del manejo de pollos de engorde, fortaleciendo sus conocimientos en bioseguridad, bienestar animal, procesos productivos y toma de decisiones en el contexto avícola.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué caracteriza el sistema intensivo en avicultura?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Alta densidad y control ambiental permanente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Baja densidad y manejo tradicional extensivo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Uso exclusivo de pastoreo y alimentación natural.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Producción sin control sanitario ni bioseguridad.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +58,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es la densidad recomendada en engorde?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Entre dos y cuatro aves por metro cuadrado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Entre veinte y treinta aves por metro cuadrado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Entre diez y doce aves por metro cuadrado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Entre cinco y seis aves por metro cuadrado.',
               esCorrecta: false,
             },
           ],
@@ -89,29 +88,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Qué entidad regula la bioseguridad en Colombia?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Instituto Nacional de Vigilancia de Medicamentos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ministerio de Transporte y movilidad nacional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Departamento Administrativo Nacional de Estadística.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Instituto Colombiano Agropecuario ICA nacional.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -119,29 +118,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Cuál es el objetivo de la bioseguridad?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Evitar ingreso y propagación de enfermedades.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Incrementar el consumo diario de alimento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reducir el tiempo de crecimiento productivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Aumentar la densidad de aves en un galpón.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +148,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué temperatura inicial requieren los pollitos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Entre veinte y veintidós grados constantes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Entre diez y quince grados ambientales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Entre treinta y dos y treinta y cuatro grados.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Entre cuarenta y cuarenta y cinco grados.',
               esCorrecta: false,
             },
           ],
@@ -180,30 +178,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es un indicador de bienestar animal?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Alta mortalidad y bajo consumo alimenticio.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Presencia constante de enfermedades respiratorias.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aves inmóviles y con comportamiento anormal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Baja mortalidad y consumo adecuado diario.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -211,29 +208,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué es la densidad avícola?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Relación entre número de aves y área disponible.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Cantidad de alimento consumido por día o fecha.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Número de trabajadores ubicados en el galpón.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tiempo de crecimiento de cada lote o zona.',
               esCorrecta: false,
             },
           ],
@@ -242,30 +238,29 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué fase ocurre entre 0 y 21 días?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Fase final de comercialización del producto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Fase de sacrificio en planta de beneficio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Fase de transporte hacia el mercado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Fase de levante con desarrollo inicial.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -273,20 +268,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Cuál es un riesgo laboral en avicultura?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Uso constante de equipos automatizados modernos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Alimentación balanceada para las aves.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Exposición a agentes biológicos y químicos.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Control permanente de temperatura ambiental.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +298,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué función cumple el cronograma?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Controlar el peso individual de cada ave.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organizar actividades del ciclo productivo avícola.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar el precio final del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Clasificar los tipos de alimento utilizados.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +328,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué tipo de galpón tiene mayor control ambiental?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Galpón abierto con ventilación natural básica.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Galpón tradicional sin control de variables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Galpón cerrado con ambiente totalmente controlado.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Galpón rural con acceso libre al exterior.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +358,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es la función de la ventilación?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Disminuir el consumo de alimento diario.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar la humedad dentro del galpón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Renovar aire y eliminar los gases nocivos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la iluminación en el o los galpones.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +388,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué tipo de alimento se usa en fase inicial?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Alimento preiniciador con alto contenido proteico.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Alimento finalizador para etapa de sacrificio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Alimento de mantenimiento para aves adultas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Alimento natural sin control nutricional ni revisión.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +418,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué mide la conversión alimenticia?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Cantidad de agua consumida por las aves del galpón.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Relación entre alimento consumido y peso ganado.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tiempo total de producción del lote en el galpón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Número de aves por metro cuadrado en el galpón.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +448,178 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Cuál es una buena práctica avícola?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Reducir el control sanitario en granja o zona.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Incrementar densidad sin control ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar protocolos de limpieza y desinfección.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cumplir normas sanitarias y de bioseguridad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué indica jadeo en las aves?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estado normal de descanso en las aves.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Presencia de estrés térmico por calor.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Buen nivel de confort ambiental adecuado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Bajo consumo de alimento diario.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué es el bienestar animal?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incremento de peso en menor tiempo posible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estado físico y mental adecuado del animal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducción de costos en producción avícola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso intensivo de tecnología en granjas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué función cumple el agua en las aves?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la densidad de aves en galpón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir completamente el consumo de alimento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Regular temperatura y procesos digestivos básicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el crecimiento muscular de las aves.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué es una contingencia en producción avícola?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proceso normal dentro del ciclo productivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Situación imprevista que afecta la producción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Etapa final del proceso de comercialización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Actividad programada en el cronograma.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué permite la trazabilidad?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Seguir el producto desde origen hasta consumo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Controlar la temperatura dentro del o los galpones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Medir el consumo diario de alimento consumido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar la densidad de aves por área del galpón.',
               esCorrecta: false,
             },
           ],
