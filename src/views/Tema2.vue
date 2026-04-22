@@ -137,7 +137,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Tipos de sistemas en Colombia
+          h3.titulo-con-imagen__texto Resoluciones ICA
     //- Título con imagen    
     //- Inicio Tabla
     .row.justify-content-center

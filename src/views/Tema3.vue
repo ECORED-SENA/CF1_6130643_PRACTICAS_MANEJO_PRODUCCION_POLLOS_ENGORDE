@@ -143,7 +143,7 @@
       .col-12
         .p-5
           .row.justify-content-center.align-items-start
-            .col-lg-9(data-aos="fade-right")
+            .col-lg-10(data-aos="fade-right")
               //- El contenedor de TabsA ocupando 9 columnas
               TabsA.color-acento-botones
                 //- Pestaña 1
@@ -206,7 +206,7 @@
                     li.d-flex
                       i.fas.fa-check-circle(style="color: #AD9721")
                       p.mb-0 Preparación de soluciones.
-            .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
+            .col-lg-2.d-none.d-lg-block(data-aos="fade-left")
               //- La imagen fuera del TabsA ocupando las 3 columnas restantes
               figure
                 img(src="@/assets/curso/tema3/acordeon02_1.png", alt="Imagen decorativa", style="width: 100%")

@@ -74,7 +74,7 @@ export default {
             hash: 't_2_1',
           },
           {
-            numero: '2.1',
+            numero: '2.2',
             titulo: 'Elementos de protección personal (EPP)',
             hash: 't_2_2',
           },

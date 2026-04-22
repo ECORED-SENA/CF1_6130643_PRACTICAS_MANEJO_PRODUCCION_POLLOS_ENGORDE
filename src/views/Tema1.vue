@@ -65,15 +65,15 @@
             .row(titulo="Sistema intensivo (predominante en Colombia)")
               .col-12
                 p.mb-4 Es el sistema más utilizado en integraciones avícolas comerciales.                
-                p.mb-3 #[b Características:]           
-                .row.mb-4.justify-content-center
-                    .col-6.col-md-3.text-center.mb-3
+                p #[b Características:]
+                .row.mb-4.justify-content-center.p-5
+                    .col-6.col-md-3.text-center
                         img.img-fluid(src='@/assets/curso/tema1/img1acordion.svg')
-                    .col-6.col-md-3.text-center.mb-3
+                    .col-6.col-md-3.text-center
                         img.img-fluid(src='@/assets/curso/tema1/img2acordion.svg')                    
-                    .col-6.col-md-3.text-center.mb-3
+                    .col-6.col-md-3.text-center
                         img.img-fluid(src='@/assets/curso/tema1/img3acordion.svg')                    
-                    .col-6.col-md-3.text-center.mb-3
+                    .col-6.col-md-3.text-center
                         img.img-fluid(src='@/assets/curso/tema1/img4acordion.svg')
                 .row
                   .col-md-6
@@ -176,12 +176,12 @@
                         img(src='@/assets/curso/tema1/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Mortalidad aceptable
                         p.card-text.text-center
-                        | Entre 3% y 5%.
+                        | Entre 3 % y 5 %.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Uniformidad
                         p.card-text.text-center
-                        | Mayor o igual (≥) que el 80% del lote.
+                        | Mayor o igual (≥) que el 80 % del lote.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta02_6.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Densidad
@@ -490,7 +490,7 @@
                   .col-7
                     figure
                       img(src='@/assets/curso/tema1/tarjeta04_1.svg', alt='' style="width:100px").m-auto
-                h4.card-title.text-center.mb-4 a. Medidas basadas en el animal
+                h4.card-title.text-center.mb-4 A. Medidas basadas en el animal
                 ul.lista-ul.mb-0
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
@@ -516,7 +516,7 @@
                   .col-7
                     figure
                       img(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='' style="width:100px").m-auto
-                h4.card-title.text-center.mb-4 b. Medidas basadas en los recursos
+                h4.card-title.text-center.mb-4 B. Medidas basadas en los recursos
                 ul.lista-ul.mb-0
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
@@ -539,7 +539,7 @@
                   .col-7
                     figure
                       img(src='@/assets/curso/tema1/tarjeta04_3.svg', alt='' style="width:100px").m-auto
-                h4.card-title.text-center.mb-4 c. Medidas basadas en la gestión
+                h4.card-title.text-center.mb-4 C. Medidas basadas en la gestión
                 ul.lista-ul.mb-0
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
@@ -576,128 +576,125 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Estrés térmico: causado por altas temperaturas, evidenciado por jadeo. 
+                  span.ms-2 Estrés térmico: causado por altas temperaturas, evidenciado por jadeo. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Ventilación deficiente: acumulación de gases como amoníaco. 
+                  span.ms-2 Ventilación deficiente: acumulación de gases como amoníaco. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Humedad de la cama: genera enfermedades y lesiones. 
+                  span.ms-2 Humedad de la cama: genera enfermedades y lesiones. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Alta densidad: incrementa competencia, estrés y mortalidad. 
+                  span.ms-2 Alta densidad: incrementa competencia, estrés y mortalidad. 
           .row(titulo="Indicadores de bienestar en granja")
               p.mb-4 Los principales indicadores observables en campo son:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Consumo normal de alimento y agua. 
+                  span.ms-2 Consumo normal de alimento y agua. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Distribución uniforme de las aves en el galpón. 
+                  span.ms-2 Distribución uniforme de las aves en el galpón. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Crecimiento homogéneo. 
+                  span.ms-2 Crecimiento homogéneo.                
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Plumaje limpio. 
+                  span.ms-2 Baja mortalidad: menor o igual (≤) que el 5 %. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Baja mortalidad: menor o igual (≤) que el 5%. 
-                li.d-flex
-                  i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Ausencia de cojeras o lesiones.
+                  span.ms-2 Ausencia de cojeras o lesiones.
           .row(titulo="Signos de problemas de bienestar")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Jadeo (estrés por calor). 
+                  span.ms-2 Jadeo (estrés por calor). 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Aglomeración de aves. 
+                  span.ms-2 Aglomeración de aves. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Disminución en el consumo. 
+                  span.ms-2 Disminución en el consumo. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Lesiones en patas o pechuga. 
+                  span.ms-2 Lesiones en patas o pechuga. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Letargo o debilidad. 
+                  span.ms-2 Letargo o debilidad. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Incremento en la mortalidad.
+                  span.ms-2 Incremento en la mortalidad.
           .row(titulo="Etología aplicada a pollos de engorder")
               p.mb-4 La etología estudia el comportamiento de las aves y permite mejorar el manejo productivo.
               h4 Aplicaciones prácticas:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Identificación de estrés térmico. 
+                  span.ms-2 Identificación de estrés térmico. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Evaluación de condiciones ambientales. 
+                  span.ms-2 Evaluación de condiciones ambientales. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Detección temprana de enfermedades. 
+                  span.ms-2 Detección temprana de enfermedades. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Ajuste de densidad y ventilación. 
+                  span.ms-2 Ajuste de densidad y ventilación. 
               h4.mt-3 Interpretación del comportamiento:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Aves dispersas → ambiente adecuado. 
+                  span.ms-2 Aves dispersas → ambiente adecuado. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Aves agrupadas → frío o corrientes de aire. 
+                  span.ms-2 Aves agrupadas → frío o corrientes de aire. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Jadeo → exceso de temperatura.
+                  span.ms-2 Jadeo → exceso de temperatura.
           .row(titulo="Principios del bienestar animal aplicados al engorde")
               h4.mt-3 Integridad física y salud:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Prevención de enfermedades. 
+                  span.ms-2 Prevención de enfermedades. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Cumplimiento de bioseguridad (Res. 3652 de 2014). 
+                  span.ms-2 Cumplimiento de bioseguridad (Res. 3652 de 2014). 
               h4.mt-3 Estado fisiológico adecuado:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Alimentación balanceada. 
+                  span.ms-2 Alimentación balanceada. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Agua limpia y disponible. 
+                  span.ms-2 Agua limpia y disponible. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Control ambiental. 
+                  span.ms-2 Control ambiental. 
               h4.mt-3 Expresión de comportamiento:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Espacio suficiente. 
+                  span.ms-2 Espacio suficiente. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Acceso a recursos. 
+                  span.ms-2 Acceso a recursos. 
               h4.mt-3 Control del estrés:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Manejo adecuado del personal. 
+                  span.ms-2 Manejo adecuado del personal. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Evitar prácticas bruscas.                 
+                  span.ms-2 Evitar prácticas bruscas.                 
               h4.mt-3 Evaluación continua:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Monitoreo diario.
+                  span.ms-2 Monitoreo diario.
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Registros productivos.                
+                  span.ms-2 Registros productivos.                
     //- Fin Accordion
     //- Inicio Accordion
     .bg--img_03.mt-5
@@ -708,36 +705,36 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Libre de hambre y sed. 
+                  span.ms-2 Libre de hambre y sed. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Libre de incomodidad. 
+                  span.ms-2 Libre de incomodidad. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Libre de dolor y enfermedad. 
+                  span.ms-2 Libre de dolor y enfermedad. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Libre de miedo y estrés. 
+                  span.ms-2 Libre de miedo y estrés. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Libre para expresar comportamiento.           
+                  span.ms-2 Libre para expresar comportamiento.           
           .row(titulo="Los Cinco Dominios")              
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Nutrición. 
+                  span.ms-2 Nutrición. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Ambiente. 
+                  span.ms-2 Ambiente. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Salud. 
+                  span.ms-2 Salud. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Comportamiento. 
+                  span.ms-2 Comportamiento. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Estado mental.
+                  span.ms-2 Estado mental.
           .row(titulo="Sintiencia en pollos de engorde")
               p.mb-4 Los pollos son seres sintientes, capaces de experimentar dolor, estrés y miedo. Esto implica la obligación de garantizar un manejo humanitario durante todo el ciclo productivo, desde la recepción hasta el transporte.             
           .row(titulo="Aplicación normativa en Colombia")
@@ -745,47 +742,47 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Establece medidas de bioseguridad. 
+                  span.ms-2 Establece medidas de bioseguridad. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Control de ingreso y desinfección. 
+                  span.ms-2 Control de ingreso y desinfección. 
               p.mt-3 Resolución 253 de 2020:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Regula el bienestar animal. 
+                  span.ms-2 Regula el bienestar animal. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Exige manejo humanitario. 
+                  span.ms-2 Exige manejo humanitario. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Control de densidad y condiciones de alojamiento. 
+                  span.ms-2 Control de densidad y condiciones de alojamiento. 
               p.mt-3 Resolución 00016409:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Control sanitario. 
+                  span.ms-2 Control sanitario. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Vigilancia epidemiológica. 
+                  span.ms-2 Vigilancia epidemiológica. 
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Registro de eventos productivos. 
+                  span.ms-2 Registro de eventos productivos. 
           .row(titulo="Relación bienestar – productividad")
               p.mb-4 Un adecuado bienestar animal permite:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Mayor ganancia de peso.  
+                  span.ms-2 Mayor ganancia de peso.  
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Mejor conversión alimenticia.  
+                  span.ms-2 Mejor conversión alimenticia.  
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Menor mortalidad.  
+                  span.ms-2 Menor mortalidad.  
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  p.mb-0 Mejor calidad de la carne.  
+                  span.ms-2 Mejor calidad de la carne.  
       .col-lg-3
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img4.png").img400.m-auto     

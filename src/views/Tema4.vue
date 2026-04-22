@@ -35,7 +35,7 @@
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Dependencia directa del clima externo.
-                p.mt-5 Características técnicas:
+                p.mt-5.fw-bold Características técnicas:
                 ul.lista-ul
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
@@ -48,7 +48,7 @@
                     span.ms-2 Altura: entre 2.5 m. a 3 m.
                   .row.p-2
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Ventajas:
+                      p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -57,7 +57,7 @@
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Fácil mantenimiento. 
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Desventajas:
+                      p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -79,7 +79,7 @@
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Permiten cierto control ambiental.                   
-                p.mt-5 Características técnicas:
+                p.mt-5.fw-bold Características técnicas:
                 ul.lista-ul
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
@@ -89,7 +89,7 @@
                     span.ms-2 Cortinas automatizadas o manuales.                   
                   .row.p-2
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Ventajas:
+                      p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -98,7 +98,7 @@
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Reducción de estrés en aves. 
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Desventajas:
+                      p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -120,7 +120,7 @@
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Total, aislamiento del ambiente externo. 
-                p.mt-5 Características técnicas:
+                p.mt-5.fw-bold Características técnicas:
                 ul.lista-ul
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
@@ -133,7 +133,7 @@
                     span.ms-2 Ventilación tipo túnel. 
                   .row.p-2
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Ventajas:
+                      p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -145,7 +145,7 @@
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Mejor conversión alimenticia. 
                     .col-6.bg-color-7.p-4
-                      p.mt-5 Desventajas:
+                      p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
@@ -358,7 +358,7 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta02_1.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Luz natural
@@ -369,7 +369,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Limitada en control. 
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta02_2.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Luz artificial
@@ -380,7 +380,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Programación automática. 
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta02_3.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Programas de iluminación
@@ -391,7 +391,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Engorde: reducción progresiva (entre 18 y 20 horas luz). 
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta02_4.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Manejo
@@ -405,7 +405,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Revisar funcionamiento de bombillos.
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta02_5.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Normatividad
@@ -436,7 +436,7 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta03_1.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Tipos de cama
@@ -453,7 +453,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Aserrín.
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta03_2.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Características ideales
@@ -470,7 +470,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Libre de contaminantes. 
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta03_3.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Manejo técnico de la cama
@@ -483,11 +483,11 @@
                               span.ms-2 Remoción frecuente para evitar compactación. 
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
-                              span.ms-2 Control de humedad: menor (<) que 25%. 
+                              span.ms-2 Control de humedad: menor (<) que 25 %. 
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Retiro de zonas húmedas (bebederos). 
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta03_4.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Problemas comunes
@@ -498,7 +498,7 @@
                             li.d-flex
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Cama seca excesiva → polvo.                             
-                      .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                      .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                         img(src='@/assets/curso/tema4/tarjeta03_5.png').w-100
                         .p-4
                           h4.mb-3.card-title.text-center Importancia productiva
@@ -516,10 +516,6 @@
                               i.fas.fa-check-circle(style="color: #ad9721;")
                               span.ms-2 Optimiza conversión alimenticia.                            
           //- Fin Carrusel
-
-
-
-
 </template>
 
 <script>
