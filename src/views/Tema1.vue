@@ -84,7 +84,7 @@
                         span.ms-2 Alta productividad.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #ad9721;")
-                        span.ms-2 Mejor conversión alimenticia (entre 1.5 kg. y 1.8 kg.).
+                        span.ms-2 Mejor conversión alimenticia (entre 1.5 kg y 1.8 kg).
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #ad9721;")
                         span.ms-2 Mayor control sanitario.                  
@@ -245,7 +245,7 @@
                     p.mb-0 Procedentes de incubadoras certificadas.
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Peso promedio: entre 38 g. y 45 g.
+                    p.mb-0 Peso promedio: entre 38 g y 45 g.
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                     p.mb-0 Temperatura inicial: entre 32 °C y 34 °C. 
@@ -378,13 +378,13 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-2        
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 Conversión alimenticia: entre 1.6 kg. y 1.8 kg. 
+              p.mb-0 Conversión alimenticia: entre 1.6 kg y 1.8 kg. 
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Mortalidad: menor (<) que el 5 %. 
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 Peso final: entre 2.2 kg. y 2.8 kg. 
+              p.mb-0 Peso final: entre 2.2 kg y 2.8 kg. 
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Índice de eficiencia europeo (IEE). 
@@ -399,7 +399,7 @@
             .titulo-sexto.color-acento-contenido.mb-3              
               h5 Tabla 1.
               span  Fase productiva
-            .tabla-a.color-acento-botones
+            .tabla-a
               table
                 thead
                   tr
@@ -411,16 +411,16 @@
                     td Pollitos de un día provenientes de incubadoras comerciales (Ross, Cobb, Hubbard).
                   tr
                     td Crecimiento / levante
-                    td Entre 0 y 21 días: fase crítica, control de temperatura (de 32 °C. a 28 °C.).
+                    td Entre 0 y 21 días: fase crítica, control de temperatura (de 32 °C a 28 °C).
                   tr
                     td Engorde / postura
-                    td Entre 22 y 42 días: ganancia rápida de peso (2,2 kg. Y 2,5 kg.).
+                    td Entre 22 y 42 días: ganancia rápida de peso (2,2 kg Y 2,5 kg).
                   tr
                     td Comercialización
-                    td A los 35 o a los 45 días, con un peso entre 2,3 kg. y 2,5 kg.
+                    td A los 35 o a los 45 días, con un peso entre 2,3 kg y 2,5 kg.
                   tr
                     td Indicadores
-                    td Conversión alimenticia: entre 1,6 kg. Y 1,8 kg.; con una mortalidad menor (<) que el 5 %.
+                    td Conversión alimenticia: entre 1,6 kg Y 1,8 kg; con una mortalidad menor (<) que el 5 %.
                   tr
                     td Recomendaciones
                     td Control ambiental, densidad adecuada, bioseguridad.
@@ -429,7 +429,7 @@
     //- Inicio Tema1.2
     .row.mt-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.3 Líneas comerciales para carme en Colombia 
+          h2 1.3 Líneas comerciales para carne en Colombia 
     p(data-aos="fade-left") Con el fin de conocer las líneas genéticas importadas utilizadas en Colombia por su alta eficiencia productiva, se invita a observar el siguiente video.
     //- Inicio Video
     figure.mb-5(data-aos="fade-down")
@@ -478,7 +478,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Evaluación del bienestar en pollos de engorde
     //- Título con imagen
-    p(data-aos="fade-left") Continuando con el análisis del bienestar animal es preciso mencionar que este se evalúa mediante indicadores técnicos agrupados en tres enfoques:
+    p(data-aos="fade-left") Continuando con el análisis del bienestar animal, es preciso mencionar que este se evalúa mediante indicadores técnicos agrupados en tres enfoques:
     .row.bg-color-1
       .col-12
         .p-5
@@ -624,7 +624,7 @@
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                   span.ms-2 Incremento en la mortalidad.
-          .row(titulo="Etología aplicada a pollos de engorder")
+          .row(titulo="Etología aplicada a pollos de engorde")
               p.mb-4 La etología estudia el comportamiento de las aves y permite mejorar el manejo productivo.
               h4 Aplicaciones prácticas:
               ul.lista-ul.mb-0

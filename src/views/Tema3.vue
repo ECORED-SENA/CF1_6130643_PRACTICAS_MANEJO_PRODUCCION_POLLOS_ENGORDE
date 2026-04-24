@@ -149,7 +149,7 @@
                 //- Pestaña 1
                 .tarjeta.p-5.bg-color-11(titulo="1. Medidas de superficie")
                   h4 Se utilizan para calcular el área disponible en el galpón.
-                  p Unidad principal: metro cuadrado (m².).
+                  p Unidad principal: metro cuadrado (m²).
                   h4 Aplicación:                   
                   ul.lista-ul.mb-0
                     li.d-flex
@@ -164,7 +164,7 @@
                 //- Pestaña 2
                 .tarjeta.p-5.bg-color-11(titulo="2. Medidas de longitud")
                   h4 Permiten dimensionar instalaciones y equipos.
-                  p Metro (m.), centímetro (cm.). 
+                  p Metro (m), centímetro (cm). 
                   h4 Aplicación:                   
                   ul.lista-ul.mb-0
                     li.d-flex
@@ -179,7 +179,7 @@
                 //- Pestaña 3
                 .tarjeta.p-5.bg-color-11(titulo="3. Medidas de peso")
                   h4 Se emplean para evaluar el crecimiento y desempeño productivo.
-                  p Gramos (g) y kilogramos (kg.). 
+                  p Gramos (g) y kilogramos (kg). 
                   h4 Aplicación:                   
                   ul.lista-ul.mb-0
                     li.d-flex
@@ -215,7 +215,7 @@
           //- Inicio Tema3.3
           .row.mt-5
               #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                h2 3.3 Densidad de aves y equipos: conceto y cálculos
+                h2 3.3 Densidad de aves y equipos: concepto y cálculos
           p(data-aos="fade-left") En el marco de la presente sección se estudiará el concepto, la normatividad y cálculos de densidad de aves y equipos.
           //- Inicio Accordion
           .bg--img_03.mt-5.acordeon-tipo-2(data-aos="fade-right")
@@ -247,17 +247,17 @@
                       ul.lista-ul
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
-                          span.ms-2 Entre 10 y 12 aves/m². en condiciones estándar.
+                          span.ms-2 Entre 10 y 12 aves/m² en condiciones estándar.
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
-                          span.ms-2 30 kg. / m² a 35 kg. / m². como límite productivo. 
+                          span.ms-2 30 kg / m² a 35 kg / m² como límite productivo. 
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Menor densidad en climas cálidos.
                   .row(titulo="Cálculo de densidad de aves")
                     .col-12                
                       h4 Fórmula:
-                      p.mb-5 Densidad = Número de aves / Área (m².).
+                      p.mb-5 Densidad = Número de aves / Área (m²).
                       h4 Ejemplo:
                       p Si hay 1.000 aves en un galpón de 100 m²:
                       p Densidad = 1.000 / 100 = 10 aves/m².

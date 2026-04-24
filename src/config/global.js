@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Manejo técnico y productivo del pollo de engorde',
     Description:
-      'La avicultura es un sector competitivo, pero muchos pequeños y medianos productores necesitan mejorar sus procesos y tecnificación. El programa de formación busca fortalecer sus capacidades técnicas, optimizar la producción y aumentar la rentabilidad mediante prácticas eficientes en el manejo de pollos de engorde',
+      'La avicultura es un sector competitivo, pero muchos pequeños y medianos productores necesitan mejorar sus procesos y tecnificación. El programa de formación busca fortalecer sus capacidades técnicas, optimizar la producción y aumentar la rentabilidad mediante prácticas eficientes en el manejo de pollos de engorde.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

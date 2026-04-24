@@ -234,25 +234,35 @@ figcaption
   font-weight: bold
 
 
-/*Tablas*/
-.tabla-a.color-acento-botones thead
-  border-color: $color-acento-contenido
-  background-color: $color-acento-contenido !important
-.tabla-a th, table td 
-  text-align: start
-.separador__tabla
-  background-color: #F6F6F6
-.tabla-a 
-  overflow-x: visible !important; 
+/* Tablas */
 
 .tabla-a
+  overflow-x: auto !important 
+  -webkit-overflow-scrolling: touch 
+  
   table
+    min-width: 600px 
+    table-layout: auto
+    
+    thead
+      border-color: $color-acento-contenido
+      background-color: $color-acento-contenido !important
+      
+    th, td
+      text-align: start
+      padding: 15px 
+      
     tbody
       tr:nth-child(odd)
         background-color: #F6F6F6
       tr:nth-child(even)
-        background-color: #FFFFFF 
-/*Tablas*/
+        background-color: #FFFFFF
+
+.separador__tabla
+  background-color: #F6F6F6
+
+
+/* Tablas */
 
 /*Audio*/
 .bg-custom-teal

@@ -12,7 +12,7 @@
       .col-lg-2.d-flex.align-items-center.justify-content-center.bg-color-3
         figure
           img(src="@/assets/curso/tema5/img1.svg", style="width: 100px").mx-auto
-    p(data-aos="fade-left") A continuación, se presentará los aspectos fundamentación para la recepción de aves y el respectivo protocolo:
+    p(data-aos="fade-left") A continuación, se presentarán los aspectos de fundamentación para la recepción de aves y el respectivo protocolo:
     //- Inicio Tarjetas
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-6.col-md-6
@@ -167,7 +167,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 4.
           span  Fases de alimentación.
-        .tabla-a.color-acento-botones
+        .tabla-a
           table
             thead
               tr
@@ -219,7 +219,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 5.
           span  Consumo total estimado por ave.
-        .tabla-a.color-acento-botones
+        .tabla-a
           table
             thead
               tr
@@ -246,7 +246,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 6.
           span  Requerimientos nutricionales básicos
-        .tabla-a.color-acento-botones
+        .tabla-a
           table
             thead
               tr

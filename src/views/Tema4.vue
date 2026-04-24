@@ -39,15 +39,15 @@
                 ul.lista-ul
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
-                    span.ms-2 Ancho: entre 8 m. y 12 m. 
+                    span.ms-2 Ancho: entre 8 m y 12 m. 
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Largo variable. 
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
-                    span.ms-2 Altura: entre 2.5 m. a 3 m.
+                    span.ms-2 Altura: entre 2.5 m a 3 m.
                   .row.p-2
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
@@ -56,7 +56,7 @@
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Fácil mantenimiento. 
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
@@ -88,7 +88,7 @@
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Cortinas automatizadas o manuales.                   
                   .row.p-2
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
@@ -97,7 +97,7 @@
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Reducción de estrés en aves. 
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
@@ -119,7 +119,7 @@
                     span.ms-2 Sistemas de ambiente controlado (tipo túnel o presión negativa). 
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
-                    span.ms-2 Total, aislamiento del ambiente externo. 
+                    span.ms-2 Total aislamiento del ambiente externo. 
                 p.mt-5.fw-bold Características técnicas:
                 ul.lista-ul
                   li.d-flex
@@ -127,12 +127,12 @@
                     span.ms-2 Paneles térmicos. 
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
-                    span.ms-2 Sistemas automáticos (sensores de temperatura, humedad, CO₂.).
+                    span.ms-2 Sistemas automáticos (sensores de temperatura, humedad, CO₂).
                   li.d-flex
                     i.fas.fa-check-circle(style="color: #ad9721;")
                     span.ms-2 Ventilación tipo túnel. 
                   .row.p-2
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Ventajas:
                       ul.lista-ul
                         li.d-flex
@@ -144,7 +144,7 @@
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #ad9721;")
                           span.ms-2 Mejor conversión alimenticia. 
-                    .col-6.bg-color-7.p-4
+                    .col-lg-6.bg-color-7.p-4
                       p.mt-5.fw-bold Desventajas:
                       ul.lista-ul
                         li.d-flex
@@ -179,7 +179,7 @@
                 p.mb-0 Entre 2 y 3 semanas: entre 28 °C y 30 °C. 
               li.d-flex
                 i.fas.fa-check-circle(style="color: #AD9721")
-                p.mb-0 Finalización: entre 20 °C a 24 °C.
+                p.mb-0 Finalización: entre 20 °C y 24 °C.
             h4.mt-5 Importancia
             ul.lista-ul.mb-0
               li.d-flex

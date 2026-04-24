@@ -20,7 +20,7 @@
           .row.mt-5
               #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
                 h2 2.1 Seguridad y salud en el trabajo
-          p(data-aos="fade-left") En el siguiente pódcast se conocerá el concepto de seguridad y salud en el trabajo, importancia, protocolos, riesgos labores en avicultura y normativa. 
+          p(data-aos="fade-left") En el siguiente pódcast se conocerá el concepto de seguridad y salud en el trabajo, importancia, protocolos, riesgos laborales en avicultura y normativa. 
           //- Inicio Podcast
           .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-2
             .row.align-items-stretch
@@ -145,7 +145,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 2.
           span  Normatividad
-        .tabla-a.color-acento-botones
+        .tabla-a
           table
             thead
               tr
@@ -261,98 +261,97 @@
                 .row.justify-content-center.mb-5.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 1.	Control de acceso
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Restricción de ingreso. 
+                            span Restricción de ingreso. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Uso de ropa exclusiva. 
+                            span Uso de ropa exclusiva. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Desinfección.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span Desinfección.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_2.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center.mb-3 2.	Manejo sanitario
-                        p.card-text.text-center
+                        h4.card-title.text-center.mb-3 2.	Manejo sanitario                        
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Aves certificadas. 
+                            span Aves certificadas. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Vacunación. 
+                            span Vacunación. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Monitoreo. 
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span Monitoreo. 
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 3.	Higiene
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Limpieza periódica. 
+                            span Limpieza periódica. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Manejo de residuos. 
+                            span Manejo de residuos. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Control de agua.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span Control de agua.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 4.	Control de plagas
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Evitar fauna silvestre. 
+                            span Evitar fauna silvestre. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Uso de trampas.                          
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span Uso de trampas.                          
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 5.	Manejo del personal
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Capacitación. 
+                            span Capacitación. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Higiene. 
+                            span Higiene. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Registro.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span Registro.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_6.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 6.	Flujo de producción
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 “Todo dentro – todo fuera”. 
+                            span “Todo dentro – todo fuera”. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Descanso sanitario. 
+                            span Descanso sanitario. 
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 No mezclar edades.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                            span No mezclar edades.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_7.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 7.	Monitoreo
                         p.card-text.text-center
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Control productivo.
+                            span Control productivo.
                           li.d-flex
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                            p.mb-0 Reportes sanitarios.
+                            span Reportes sanitarios.
                 //- Fin Carrusel
     Separador
     //- Inicio Tema2.5
@@ -405,7 +404,7 @@
     .row.mt-5
         #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.6 Protocolos
-    p(data-aos="fade-left") Procedimientos estandarizados que indican cómo realizar las actividades dentro de la granja garantizando cumplimiento normativo. Las etapas son:
+    p(data-aos="fade-left") Procedimientos estandarizados que indican cómo realizar las actividades dentro de la granja, garantizando cumplimiento normativo. Las etapas son:
     //- Estructura de Galería de Imágenes Responsive
     .row.justify-content-center.align-items-stretch
       //- Tarjeta 1
